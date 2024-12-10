@@ -4,11 +4,13 @@ export default class ALXCourse {
     this._length = length;
     this._students = students;
   }
+
   // name
   // getter
   get name() {
     return this._name;
   }
+
   // setter
   set name(name) {
     if (typeof name !== 'string') {
@@ -16,11 +18,13 @@ export default class ALXCourse {
     }
     this._name = name;
   }
+
   // length
   // getter
   get length() {
     return this._length;
   }
+
   // setter
   set length(length) {
     if (typeof length !== 'number') {
@@ -28,11 +32,13 @@ export default class ALXCourse {
     }
     this._length = length;
   }
+
   // students
   // getter
   get students() {
     return this._students;
   }
+
   // setter
   set students(students) {
     if (students instanceof Array) {
